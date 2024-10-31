@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Regional User Gruop</title>
+    <link rel="stylesheet" href="simple.css">
+</head>
+<body>
+    <!-- Header section with ARIA landmark role -->
+    <header role="banner">
+        <h1>Canadian Regional User Group (CANRUG)</h1>
+        
+        <!-- Navigation with ARIA landmark role and aria-label for screen readers -->
+        <nav role="navigation" aria-label="Main Navigation">
+             <a href="#home" aria-current="page">Home</a>
+             <a href="#about">About</a>
+			 <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main content section with ARIA landmark role -->
+    <main role="main">
+        <!-- Home section with aria-labelledby -->
+        <section id="home" aria-labelledby="home-heading">
+            <h2 id="home-heading">Home</h2>
+            <p>This is the home section.</p>
+        </section>
+
+        <!-- About section with aria-labelledby -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Us</h2>
+            <p>Learn more about us here.</p>
+        </section>
+		
+        <!-- Contact section with aria-labelledby -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>Contact information goes here.</p>
+        </section>
+    </main>
+
+    <!-- Footer section with ARIA landmark role -->
+    <footer role="contentinfo">
+        <p>&copy; 2024 CANRUG</p>
+    </footer>
+</body>
+</html>
